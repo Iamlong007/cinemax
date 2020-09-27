@@ -86,6 +86,7 @@
   -moz-osx-font-smoothing: grayscale;
   background-image: url("~@/assets/blob.svg");
 }
+
 .fade-enter {
   opacity: 0;
 }
@@ -136,6 +137,11 @@
   border: 0.1rem solid #fd9739;
   border-radius: 0.2rem;
 }
+
+.download:hover {
+  background-color: rgb(232, 232, 232);
+}
+
 .headerCont {
   padding: 4.3rem 3.3rem 1.3rem 1.8rem;
 }
@@ -169,6 +175,10 @@
   border-radius: 0.2rem;
 }
 
+.primaryBt:hover {
+  background-color: rgb(232, 232, 232);
+}
+
 .secondaryBt {
   background-color: inherit;
   display: flex;
@@ -177,6 +187,10 @@
   padding: 0.6em 0.5em 0.5em 0.5em;
   border-radius: 0.2rem;
   border: 0.1rem solid white;
+}
+
+.secondaryBt:hover {
+  background-color: chocolate;
 }
 
 .buttonTxt {
