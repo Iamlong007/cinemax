@@ -10,8 +10,8 @@ import "@/plugins/fonts";
 
 import vuetify from "./plugins/vuetify";
 import "animate.css";
-require("typeface-raleway");
-require("typeface-oleo-script");
+require("typeface-roboto");
+require("typeface-playfair-display");
 
 Vue.config.productionTip = false;
 
